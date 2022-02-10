@@ -1,0 +1,46 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 20px;
+    width: 100%;
+    background: linear-gradient(red,green);
+    margin: 0px;
+}
+
+.NOTE{
+    font-size: 18px;
+    width: 100%;
+    background: linear-gradient(blue,green);
+    margin: 0px;
+    color: black;
+}
+
+.speed_div{
+    float: left;
+}
+.speedimg,.volumeimg{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed,#volume{
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+
+.volume_div{
+    float: right;
+}
+
+.play_button{
+    width: 130px;
+    font-size: 20px;
+    
+}
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+}
